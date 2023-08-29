@@ -23,7 +23,7 @@ def signup(request):
         'form': form,
     }
 
-    return render(request, 'account_form.html', context)
+    return render(request, 'accounts_form.html', context)
 
 
 def login(request):
@@ -47,7 +47,7 @@ def login(request):
         'form': form,
     }
 
-    return render(request, 'account_form.html', context)
+    return render(request, 'accounts_form.html', context)
 
 
 def logout(request):
